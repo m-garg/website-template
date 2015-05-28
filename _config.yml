@@ -1,0 +1,36 @@
+# Site settings
+title: <%= projectName %>
+description: <%= projectDescription %>
+email: <%= email %>
+
+url: <%= cname %>
+baseurl: ""
+
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: fed136
+  secondary: fec503  
+  secondary-dark: 333
+  
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/<% socialTwitter %>
+  - title: facebook
+    url: http://facebook.com/<%= socialFacebook %>
+  - title: linkedin
+    url: <%= socialLinkedin %>
+  - title: youtube 
+    url: <%= socialYoutube %>
+  - title: github
+    url: <%= socialGithub %>
+
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+#Enter disqus id here to activate comments
+disqus: 
+ 
